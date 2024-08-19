@@ -1,24 +1,24 @@
 import EcosystemIcon from "../assets/icons/ecosystem.svg";
 
-export const Features = () => {
-  const features = [
-    {
-      title: "Integration Ecosystem",
-      description:
-        "Enhance your productivity by connecting with your tools, keeping your essentials in one place.",
-    },
-    {
-      title: "Goal Setting and Tracking",
-      description:
-        "Define and track your goals, breaking down objectives into achievable tasks to keep your targets in sight.",
-    },
-    {
-      title: "Secure Data Encryption",
-      description:
-        "With end-to-end encryption, your data is securely stored and protected from unauthorized access.",
-    },
-  ];
+const features = [
+  {
+    title: "Integration Ecosystem",
+    description:
+      "Enhance your productivity by connecting with your tools, keeping your essentials in one place.",
+  },
+  {
+    title: "Goal Setting and Tracking",
+    description:
+      "Define and track your goals, breaking down objectives into achievable tasks to keep your targets in sight.",
+  },
+  {
+    title: "Secure Data Encryption",
+    description:
+      "With end-to-end encryption, your data is securely stored and protected from unauthorized access.",
+  },
+];
 
+export const Features = () => {
   return (
     <div className="bg-black text-white py-[72px] sm:py-24">
       <div className="container">
