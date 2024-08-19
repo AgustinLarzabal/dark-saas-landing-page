@@ -1,8 +1,7 @@
 "use client";
 
-import Image from "next/image";
-
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 import ArrowWIcon from "@/assets/icons/arrow-w.svg";
 import cursorImage from "@/assets/images/cursor.png";
